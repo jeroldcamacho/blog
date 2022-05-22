@@ -11,13 +11,13 @@ const resource = [
   '/blog/index.html',
   '/blog/404.html',
   
-    '/blog/tabs/categories.html',
+    '/blog/categories/',
   
-    '/blog/tabs/tags.html',
+    '/blog/tags/',
   
-    '/blog/tabs/archives.html',
+    '/blog/archives/',
   
-    '/blog/tabs/about.html',
+    '/blog/about/',
   
 
   /* --- Favicons & compressed JS --- */
