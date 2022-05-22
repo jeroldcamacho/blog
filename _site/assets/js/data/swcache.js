@@ -11,25 +11,18 @@ const resource = [
   '/blog/index.html',
   '/blog/404.html',
   
-    '/blog/categories/',
+    '/blog/tabs/categories.html',
   
-    '/blog/tags/',
+    '/blog/tabs/tags.html',
   
-    '/blog/archives/',
+    '/blog/tabs/archives.html',
   
-    '/blog/about/',
+    '/blog/tabs/about.html',
   
 
   /* --- Favicons & compressed JS --- */
   
   
-    '/blog/assets/img/favicons/android-chrome-192x192.png',
-    '/blog/assets/img/favicons/android-chrome-512x512.png',
-    '/blog/assets/img/favicons/apple-touch-icon.png',
-    '/blog/assets/img/favicons/favicon-16x16.png',
-    '/blog/assets/img/favicons/favicon-32x32.png',
-    '/blog/assets/img/favicons/favicon.ico',
-    '/blog/assets/img/favicons/mstile-150x150.png',
     '/blog/assets/js/dist/categories.min.js',
     '/blog/assets/js/dist/commons.min.js',
     '/blog/assets/js/dist/home.min.js',
