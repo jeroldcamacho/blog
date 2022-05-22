@@ -1,42 +1,42 @@
 const resource = [
 
   /* --- CSS --- */
-  '/assets/css/style.css',
+  '/blog/assets/css/style.css',
 
   /* --- PWA --- */
-  '/app.js',
-  '/sw.js',
+  '/blog/app.js',
+  '/blog/sw.js',
 
   /* --- HTML --- */
-  '/index.html',
-  '/404.html',
+  '/blog/index.html',
+  '/blog/404.html',
   
-    '/categories/',
+    '/blog/categories/',
   
-    '/tags/',
+    '/blog/tags/',
   
-    '/archives/',
+    '/blog/archives/',
   
-    '/about/',
+    '/blog/about/',
   
 
   /* --- Favicons & compressed JS --- */
   
   
-    '/assets/img/favicons/android-chrome-192x192.png',
-    '/assets/img/favicons/android-chrome-512x512.png',
-    '/assets/img/favicons/apple-touch-icon.png',
-    '/assets/img/favicons/favicon-16x16.png',
-    '/assets/img/favicons/favicon-32x32.png',
-    '/assets/img/favicons/favicon.ico',
-    '/assets/img/favicons/mstile-150x150.png',
-    '/assets/js/dist/categories.min.js',
-    '/assets/js/dist/commons.min.js',
-    '/assets/js/dist/home.min.js',
-    '/assets/js/dist/misc.min.js',
-    '/assets/js/dist/page.min.js',
-    '/assets/js/dist/post.min.js',
-    '/assets/js/dist/pvreport.min.js'
+    '/blog/assets/img/favicons/android-chrome-192x192.png',
+    '/blog/assets/img/favicons/android-chrome-512x512.png',
+    '/blog/assets/img/favicons/apple-touch-icon.png',
+    '/blog/assets/img/favicons/favicon-16x16.png',
+    '/blog/assets/img/favicons/favicon-32x32.png',
+    '/blog/assets/img/favicons/favicon.ico',
+    '/blog/assets/img/favicons/mstile-150x150.png',
+    '/blog/assets/js/dist/categories.min.js',
+    '/blog/assets/js/dist/commons.min.js',
+    '/blog/assets/js/dist/home.min.js',
+    '/blog/assets/js/dist/misc.min.js',
+    '/blog/assets/js/dist/page.min.js',
+    '/blog/assets/js/dist/post.min.js',
+    '/blog/assets/js/dist/pvreport.min.js'
 
 ];
 

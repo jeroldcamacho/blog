@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>http://localhost:4000/blog/</id>
   <title>Jerold Camacho</title>
   <subtitle></subtitle>
-  <updated>2022-05-22T10:05:11+08:00</updated>
+  <updated>2022-05-22T10:16:13+08:00</updated>
   <author>
     <name>Jerold Camacho</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>http://localhost:4000/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="http://localhost:4000/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
   <rights> © 2022 Jerold Camacho </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>[THM] Library Writeup</title>
-    <link href="http://localhost:4000/posts/thm-library-writeup/" rel="alternate" type="text/html" title="[THM] Library Writeup" />
+    <link href="http://localhost:4000/blog/posts/thm-library-writeup/" rel="alternate" type="text/html" title="[THM] Library Writeup" />
     <published>2022-03-08T00:34:00+08:00</published>
   
     <updated>2022-03-08T00:34:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/thm-library-writeup/</id>
-    <content src="http://localhost:4000/posts/thm-library-writeup/" />
+    <id>http://localhost:4000/blog/posts/thm-library-writeup/</id>
+    <content src="http://localhost:4000/blog/posts/thm-library-writeup/" />
     <author>
       <name>1</name>
     </author>
