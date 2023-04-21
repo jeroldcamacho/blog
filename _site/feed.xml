@@ -4,7 +4,7 @@
   <id>http://localhost:4000/blog/</id>
   <title>Jerold Camacho</title>
   <subtitle></subtitle>
-  <updated>2022-05-22T11:11:31+08:00</updated>
+  <updated>2023-04-21T17:05:17+08:00</updated>
   <author>
     <name>Jerold Camacho</name>
     <uri>http://localhost:4000/blog/</uri>
@@ -13,7 +13,7 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
-  <rights> © 2022 Jerold Camacho </rights>
+  <rights> © 2023 Jerold Camacho </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
   <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
 
