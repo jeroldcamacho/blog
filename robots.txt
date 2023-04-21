@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://jeroldcamacho.github.io/blog/sitemap.xml
