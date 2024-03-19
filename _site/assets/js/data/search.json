@@ -2,7 +2,7 @@
   
   {
     "title": "Certified Red Team Professional (CRTP) Review",
-    "url": "/posts/crtp-review/",
+    "url": "/blog/posts/crtp-review/",
     "categories": "",
     "tags": "CRTP, Certified Red Team Professional",
     "date": "2024-03-20 00:34:00 +0800",
@@ -19,7 +19,7 @@
   
   {
     "title": "THM | Library CTF Writeup",
-    "url": "/posts/thm-library-writeup/",
+    "url": "/blog/posts/thm-library-writeup/",
     "categories": "Writeups",
     "tags": "TryHackMe, THM, Python Library Hijacking",
     "date": "2022-03-08 00:34:00 +0800",

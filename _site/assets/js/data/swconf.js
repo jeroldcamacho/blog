@@ -1,26 +1,26 @@
 const swconf = {
   
-    cacheName: 'chirpy-1710890266',resources: [
-      '/assets/css/jekyll-theme-chirpy.css',
-      '/',
+    cacheName: 'chirpy-1710891078',resources: [
+      '/blog/assets/css/jekyll-theme-chirpy.css',
+      '/blog/',
       
-        '/categories/',
+        '/blog/categories/',
       
-        '/tags/',
+        '/blog/tags/',
       
-        '/archives/',
+        '/blog/archives/',
       
-        '/about/',
+        '/blog/about/',
       
 
       
       
-        '/assets/js/dist/categories.min.js',
-        '/assets/js/dist/commons.min.js',
-        '/assets/js/dist/home.min.js',
-        '/assets/js/dist/misc.min.js',
-        '/assets/js/dist/page.min.js',
-        '/assets/js/dist/post.min.js'
+        '/blog/assets/js/dist/categories.min.js',
+        '/blog/assets/js/dist/commons.min.js',
+        '/blog/assets/js/dist/home.min.js',
+        '/blog/assets/js/dist/misc.min.js',
+        '/blog/assets/js/dist/page.min.js',
+        '/blog/assets/js/dist/post.min.js'
     ],allowHosts: [
       
           'fonts.googleapis.com',

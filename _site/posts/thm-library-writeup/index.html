@@ -35,8 +35,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="Library is a TryHackMe room boot2root machine for FIT and bsides guatemala CTF." />
 <meta property="og:description" content="Library is a TryHackMe room boot2root machine for FIT and bsides guatemala CTF." />
-<link rel="canonical" href="http://localhost:4000/posts/thm-library-writeup/" />
-<meta property="og:url" content="http://localhost:4000/posts/thm-library-writeup/" />
+<link rel="canonical" href="http://localhost:4000/blog/posts/thm-library-writeup/" />
+<meta property="og:url" content="http://localhost:4000/blog/posts/thm-library-writeup/" />
 <meta property="og:site_name" content="1" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-03-08T00:34:00+08:00" />
@@ -45,7 +45,7 @@
 <meta name="twitter:site" content="@jeroldcamacho" />
 <meta name="twitter:creator" content="@jeroldcamacho" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jerold Camacho","url":"https://twitter.com/jeroldcamacho/"},"dateModified":"2022-03-08T00:34:00+08:00","datePublished":"2022-03-08T00:34:00+08:00","description":"Library is a TryHackMe room boot2root machine for FIT and bsides guatemala CTF.","headline":"THM Library CTF Writeup","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/thm-library-writeup/"},"url":"http://localhost:4000/posts/thm-library-writeup/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jerold Camacho","url":"https://twitter.com/jeroldcamacho/"},"dateModified":"2024-03-20T07:19:24+08:00","datePublished":"2022-03-08T00:34:00+08:00","description":"Library is a TryHackMe room boot2root machine for FIT and bsides guatemala CTF.","headline":"THM Library CTF Writeup","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/posts/thm-library-writeup/"},"url":"http://localhost:4000/blog/posts/thm-library-writeup/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -59,17 +59,17 @@
 
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/blog/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/favicons/favicon-16x16.png">
 
-  <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+  <link rel="manifest" href="/blog/assets/img/favicons/site.webmanifest">
 
-<link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+<link rel="shortcut icon" href="/blog/assets/img/favicons/favicon.ico">
 <meta name="apple-mobile-web-app-title" content="1">
 <meta name="application-name" content="1">
 <meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+<meta name="msapplication-config" content="/blog/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
 
@@ -103,7 +103,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
 
-  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+  <link rel="stylesheet" href="/blog/assets/css/jekyll-theme-chirpy.css">
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.25.0/dist/tocbot.min.css">
@@ -277,10 +277,10 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/img/img.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a href="/blog/" id="avatar" class="rounded-circle"><img src="/blog/assets/img/img.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <h1 class="site-title">
-      <a href="/">1</a>
+      <a href="/blog/">1</a>
     </h1>
     <p class="site-subtitle fst-italic mb-0">infosec in general</p>
   </header>
@@ -290,7 +290,7 @@
     <ul class="nav">
       <!-- home -->
       <li class="nav-item">
-        <a href="/" class="nav-link">
+        <a href="/blog/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
         </a>
@@ -298,7 +298,7 @@
       <!-- the real tabs -->
       
         <li class="nav-item">
-          <a href="/categories/" class="nav-link">
+          <a href="/blog/categories/" class="nav-link">
             <i class="fa-fw fas fa-stream"></i>
             
 
@@ -308,7 +308,7 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/tags/" class="nav-link">
+          <a href="/blog/tags/" class="nav-link">
             <i class="fa-fw fas fa-tags"></i>
             
 
@@ -318,7 +318,7 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/archives/" class="nav-link">
+          <a href="/blog/archives/" class="nav-link">
             <i class="fa-fw fas fa-archive"></i>
             
 
@@ -328,7 +328,7 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/about/" class="nav-link">
+          <a href="/blog/about/" class="nav-link">
             <i class="fa-fw fas fa-info-circle"></i>
             
 
@@ -420,7 +420,7 @@
 
       
         <a
-          href="/feed.xml"
+          href="/blog/feed.xml"
           aria-label="rss"
           
 
@@ -456,7 +456,7 @@
         
           
             <span>
-              <a href="/">Home</a>
+              <a href="/blog/">Home</a>
             </span>
 
           
@@ -1199,6 +1199,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1710890364"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Mar 20, 2024
+</time>
+
+        </span>
+      
 
       
 
@@ -1343,7 +1366,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 </pre></td></tr></tbody></table></code></div></div>
 <p>Opening the <code class="language-plaintext highlighter-rouge">robots.txt</code> on the browser gives the following text.</p>
 
-<p><a href="/assets/img/thm-library-writeup/rockyou.png" class="popup img-link shadow shimmer"><img src="/assets/img/thm-library-writeup/rockyou.png" alt=""  loading="lazy"></a></p>
+<p><a href="/blog/assets/img/thm-library-writeup/rockyou.png" class="popup img-link shadow shimmer"><img src="/blog/assets/img/thm-library-writeup/rockyou.png" alt=""  loading="lazy"></a></p>
 
 <p>“rockyou”??? Seems familiar because there’s this famous wordlist named <code class="language-plaintext highlighter-rouge">rockyou.txt</code>, maybe its a hint for us to bruteforce something?</p>
 
@@ -1357,13 +1380,13 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 </pre></td><td class="rouge-code"><pre>hydra <span class="nt">-L</span> meliodas <span class="nb">users</span> <span class="nt">-P</span> /usr/share/wordlists/rockyou.txt ssh://10.10.85.187 <span class="nt">-t</span> 4
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><a href="/assets/img/thm-library-writeup/hydra.png" class="popup img-link shadow shimmer"><img src="/assets/img/thm-library-writeup/hydra.png" alt=""  loading="lazy"></a></p>
+<p><a href="/blog/assets/img/thm-library-writeup/hydra.png" class="popup img-link shadow shimmer"><img src="/blog/assets/img/thm-library-writeup/hydra.png" alt=""  loading="lazy"></a></p>
 
 <p>Successfully cracked the credential with a password of <code class="language-plaintext highlighter-rouge">iloveyou1</code></p>
 
 <p>Login to the ssh and get the <code class="language-plaintext highlighter-rouge">user.txt</code> flag!</p>
 
-<p><a href="/assets/img/thm-library-writeup/user3.png" class="popup img-link shadow shimmer"><img src="/assets/img/thm-library-writeup/user3.png" alt=""  loading="lazy"></a></p>
+<p><a href="/blog/assets/img/thm-library-writeup/user3.png" class="popup img-link shadow shimmer"><img src="/blog/assets/img/thm-library-writeup/user3.png" alt=""  loading="lazy"></a></p>
 
 <hr />
 
@@ -1372,7 +1395,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 <h3 id="python-library-hijacking"><span class="me-2">python library hijacking</span><a href="#python-library-hijacking" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>As you can see when running <code class="language-plaintext highlighter-rouge">sudo -l</code> we can run the file <code class="language-plaintext highlighter-rouge">/home/meliodas/bak.py</code> which was owned by <code class="language-plaintext highlighter-rouge">root</code>.</p>
 
-<p><a href="/assets/img/thm-library-writeup/sudo.png" class="popup img-link  shimmer"><img src="/assets/img/thm-library-writeup/sudo.png" alt="" loading="lazy"></a></p>
+<p><a href="/blog/assets/img/thm-library-writeup/sudo.png" class="popup img-link  shimmer"><img src="/blog/assets/img/thm-library-writeup/sudo.png" alt="" loading="lazy"></a></p>
 
 <p>Lets analyze the code since we cannot modify the python file.</p>
 
@@ -1421,14 +1444,14 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 </pre></td></tr></tbody></table></code></div>    </div>
   </li>
   <li>Run this command <code class="language-plaintext highlighter-rouge">sudo /usr/bin/python3 /home/meliodas/bak.py</code>
-  <a href="/assets/img/thm-library-writeup/os.png" class="popup img-link shadow shimmer"><img src="/assets/img/thm-library-writeup/os.png" alt=""  loading="lazy"></a></li>
+  <a href="/blog/assets/img/thm-library-writeup/os.png" class="popup img-link shadow shimmer"><img src="/blog/assets/img/thm-library-writeup/os.png" alt=""  loading="lazy"></a></li>
 </ul>
 
 <p>It doesnt work with the python <code class="language-plaintext highlighter-rouge">os</code> library, lets repeat the same steps with <code class="language-plaintext highlighter-rouge">zipfile</code> library.</p>
 
 <p>And we are now root!</p>
 
-<p><a href="/assets/img/thm-library-writeup/root.png" class="popup img-link shadow shimmer"><img src="/assets/img/thm-library-writeup/root.png" alt=""  loading="lazy"></a></p>
+<p><a href="/blog/assets/img/thm-library-writeup/root.png" class="popup img-link shadow shimmer"><img src="/blog/assets/img/thm-library-writeup/root.png" alt=""  loading="lazy"></a></p>
 
 <h2 id="easiest-way-to-gain-root"><span class="me-2">Easiest way to gain root</span><a href="#easiest-way-to-gain-root" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
@@ -1446,7 +1469,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
   <li>
     <p>and run it</p>
 
-    <p><a href="/assets/img/thm-library-writeup/root2.png" class="popup img-link shadow shimmer"><img src="/assets/img/thm-library-writeup/root2.png" alt=""  loading="lazy"></a></p>
+    <p><a href="/blog/assets/img/thm-library-writeup/root2.png" class="popup img-link shadow shimmer"><img src="/blog/assets/img/thm-library-writeup/root2.png" alt=""  loading="lazy"></a></p>
   </li>
 </ol>
 
@@ -1460,7 +1483,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/writeups/">Writeups</a>
+          <a href="/blog/categories/writeups/">Writeups</a>
       </div>
     
 
@@ -1470,17 +1493,17 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/tryhackme/"
+            href="/blog/tags/tryhackme/"
             class="post-tag no-text-decoration"
           >TryHackMe</a>
         
           <a
-            href="/tags/thm/"
+            href="/blog/tags/thm/"
             class="post-tag no-text-decoration"
           >THM</a>
         
           <a
-            href="/tags/python-library-hijacking/"
+            href="/blog/tags/python-library-hijacking/"
             class="post-tag no-text-decoration"
           >Python Library Hijacking</a>
         
@@ -1518,21 +1541,21 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=THM%20%7C%20Library%20CTF%20Writeup%20-%201&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fthm-library-writeup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=THM%20%7C%20Library%20CTF%20Writeup%20-%201&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2Fthm-library-writeup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=THM%20%7C%20Library%20CTF%20Writeup%20-%201&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fthm-library-writeup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=THM%20%7C%20Library%20CTF%20Writeup%20-%201&u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2Fthm-library-writeup%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fthm-library-writeup%2F&text=THM%20%7C%20Library%20CTF%20Writeup%20-%201" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fposts%2Fthm-library-writeup%2F&text=THM%20%7C%20Library%20CTF%20Writeup%20-%201" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1587,14 +1610,14 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/crtp-review/">Certified Red Team Professional (CRTP) Review</a>
+          <a href="/blog/posts/thm-library-writeup/">THM | Library CTF Writeup</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/thm-library-writeup/">THM | Library CTF Writeup</a>
+          <a href="/blog/posts/crtp-review/">Certified Red Team Professional (CRTP) Review</a>
         </li>
       
     </ul>
@@ -1740,19 +1763,19 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/certified-red-team-professional/">Certified Red Team Professional</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/certified-red-team-professional/">Certified Red Team Professional</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/crtp/">CRTP</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/crtp/">CRTP</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/python-library-hijacking/">Python Library Hijacking</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/python-library-hijacking/">Python Library Hijacking</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/thm/">THM</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/thm/">THM</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/tryhackme/">TryHackMe</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/tryhackme/">TryHackMe</a>
       
     </div>
   </section>
@@ -1835,7 +1858,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 
   
     <a
-      href="/posts/crtp-review/"
+      href="/blog/posts/crtp-review/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
@@ -2026,19 +2049,19 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/certified-red-team-professional/">Certified Red Team Professional</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/certified-red-team-professional/">Certified Red Team Professional</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/crtp/">CRTP</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/crtp/">CRTP</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/python-library-hijacking/">Python Library Hijacking</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/python-library-hijacking/">Python Library Hijacking</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/thm/">THM</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/thm/">THM</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/tryhackme/">TryHackMe</a>
+        <a class="post-tag btn btn-outline-primary" href="/blog/tags/tryhackme/">TryHackMe</a>
       
     </div>
   </section>
@@ -2208,7 +2231,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+<script defer src="/blog/assets/js/dist/post.min.js"></script>
 
 
 
@@ -2231,7 +2254,7 @@ Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
-    json: '/assets/js/data/search.json',
+    json: '/blog/assets/js/data/search.json',
     searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{snippet}</p>  </article>',
     noResultsText: '<p class="mt-5"></p>',
     templateMiddleware: function(prop, value, template) {
