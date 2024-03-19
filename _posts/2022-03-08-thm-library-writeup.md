@@ -1,9 +1,10 @@
 ---
-title: "[THM] Library Writeup"
+title: "THM | Library CTF Writeup"
 author: 1
 date: 2022-03-08 00:34:00 +0800
-categories: [pentest]
-tags: [tryhackme, thm, python library hijacking]
+categories: [Writeups]
+tags: [TryHackMe, THM, Python Library Hijacking]
+author: me
 comments: false
 ---
 
